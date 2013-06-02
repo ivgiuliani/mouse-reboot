@@ -1,0 +1,7 @@
+Support for a faulty mouse driver that makes the pointer go crazy
+after a while.
+Reloads the mouse driver if not moved for N seconds.
+
+Add the launcher script to /etc/lightdm/lightm.conf as follows:
+
+  session-setup-script=<path to launcher.sh>
